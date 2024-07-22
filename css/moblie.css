@@ -1,0 +1,65 @@
+@media screen and (min-width:300px) and (max-width:1000px) {
+    #palco {
+        max-width: 500px;
+        max-height: 300px;
+        background-image: url('../img/Fundo/fundo_moble.png');
+        margin: 0 auto;
+        margin-top: .8em;
+    }
+
+    #missoes,
+    #palco-pontuacoes {
+        display: none;
+    }
+
+    .texto {
+        color: white;
+        font-size: .8em;
+    }
+
+
+    h1,
+    p {
+        font-size: 1em;
+    }
+
+    .moblie-hidden {
+        display: block;
+    }
+
+    .lista-menus li {
+        display: flex;
+    }
+    #mob-missoes {
+        background-color: rgba(0, 128, 64, 0.555);
+        margin: 1em;
+        border: 5px solid #000;
+        box-shadow: 5px 10px black;
+        text-align: center;
+        width: 90%;
+        height: 200px;
+        display: block;
+        margin: 10% auto;
+    }
+
+    #mob-pontuacao {
+        background-color: rgba(240, 255, 255, 0.39);
+        border: 5px solid #000;
+        box-shadow: 5px 10px black;
+        margin: 1em;
+        width: 90%;
+        height: 200px;
+        display: block;
+        margin: 10% auto;
+    }
+
+    .lista-menus button{
+        background: #00000042;
+        font-family: 'Fonte-jogo';
+        margin: 1em;
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+
+}

@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Fonte-jogo';
+    src: url("../font/rainyhearts.ttf");
+}
+
+.texto {
+    font-family: 'Fonte-jogo';
+    font-size: 2em;
+    margin: .8;
+}
+
+body {
+    background-image: url('../img/Fundo/fundo_pagina.png');
+}
+
+p,
+h1 {
+    font-family: 'Fonte-jogo';
+    font-size: 2em;
+    margin: .8;
+}
+
+.caixa {
+    border: 2px dotted black;
+    padding-left: .3em;
+    padding-right: .3em;
+    text-align: center;
+}
+
+#paniel-nave {
+    height: 10vh;
+    background: #ffffff7c;
+    display: flex;
+    border: 3px solid #fff;
+    box-shadow: 5px 10px black;
+    color: #000;
+}
+
+.icone{
+    margin: .5em;
+}
+
+#paniel-nave button{
+    background: none;
+    border: none;
+    margin: .3em;
+}
+#paniel-nave button img{
+    width: 90%;
+}
+
+#paniel-nave button:hover{
+    background: #fff;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+#missoes {
+    width: 80%;
+    height: 60%;
+    background-color: rgba(0, 128, 64, 0.555);
+    margin: 1em;
+    border: 5px solid #000;
+    box-shadow: 5px 10px black;
+    text-align: center;
+}
+
+#palco {
+    background-image: url('../img/Fundo/fundo_1.png');
+    background-position: center;
+    background-size: cover;
+    height: 78vh; 
+    width: 62vw;
+    border: 6px solid #fff;
+    margin-top: 1.5em;
+}
+
+#palco-pontuacoes {
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    background-color: rgba(240, 255, 255, 0.39);
+    border: 5px solid #000;
+    box-shadow: 5px 10px black;
+    margin: 1em;
+}
+
+hr {
+    border: 2px dashed #000;
+}
+
+#mob-missoes,
+#mob-pontuacao {
+    display: none;
+}
+
+.moblie-hidden {
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: var(--branco-traparente);
+    text-align: center;
+    margin: 10% auto;
+    width: 90vw;
+    max-width: 500px;
+    border: 5px double var(--amarelo-fraco);
+    border-radius: 5px;
+    color: var(--branco);
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+}
+
+.close:hover{
+    color: var(--verde);
+}
+
+#nave {
+    position: relative;
+    top: 78%;
+    left: 40%;
+    width: 15%;
+}
+
+.lista-placos{
+    width: 30%;
+}
+
+#tamanho{
+    height: 0;
+    width: 100px;
+    background-color: #000;
+}

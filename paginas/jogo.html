@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/moblie.css">
+    <title>Em Jogo</title>
+</head>
+
+<body>
+    <header id="paniel-nave">
+        <h1 class="caixa">Paniel</h1>
+        <img src="../img/Vida/barra_de_vida1.png" alt="Barra de Vida" class="icone">
+        <img src="../img/Energia/barra_de_energia1.png" alt="Barra de Energia" class="icone">
+        <img src="../img/Pesquisa/barra_de_pesquisa1.png" alt="Barra de Pesquisa" class="icone">
+        <button><img src="../img/Escudo/escudo icone1.png" alt="Icone Escudo" class="icone"></button>
+        <button><img src="../img/Energia/icone de energia1.png" alt="Icone Energia" class="icone"></button>
+        <button> <img src="../img/Canhao/icone canhao1.png" alt="Icone Canhao" class="icone"></button>
+        <button><img src="../img/Nave/icones_nave1.png" alt="Icone Nave" class="icone"></button>
+    </header>
+
+    <div id="janela-missoes" class="modal">
+        <div class="modal-content" id="mob-missoes">
+            <span class="close" id="closeJanelaMissoes">&times;</span>
+            <hr>
+            <h1>missões</h1>
+            <hr>
+        </div>
+    </div>
+
+    <div id="janela-placar" class="modal">
+        <div class="modal-content" id="mob-pontuacao">
+            <span class="close" id="closeJanelaPlacar">&times;</span>
+            <hr>
+            <h1>Sua Pontuação</h1>
+            <p id="pontuacao">00000000</p>
+            <hr>
+        </div>
+    </div>
+
+    <main>
+        <ul class="moblie-hidden lista-menus">
+            <li><button type="button" onclick="abrirJanelaModalMissoes()">missões</button></li>
+            <li><button type="button" onclick="abrirJanelaModalPlacar()">Placar</button></li>
+        </ul>
+
+        <ul class="lista-placos">
+            <li id="palco-pontuacoes">
+                <hr>
+                <h1>Sua Pontuação</h1>
+                <p id="pontuacao">00000000</p>
+                <hr>
+            </li>
+
+            <li id="missoes">
+                <hr>
+                <h1>missões</h1>
+                <hr>
+                <ul>
+                    <h1>Missao Dificeis</h1>
+                    <h1>Missao Terra</h1>
+                    <h1>Missao Multiplacador</h1>
+                    <h1>Missao Hacker</h1>
+                </ul>
+
+            </li>
+        </ul>
+
+        <section id="palco">
+            <img src="../img/Nave/nave1.png" alt="" id="nave">
+        </section>
+    </main>
+
+</body>
+
+<script type="text/javascript" src="../js/janelas.js"></script>
+<script type="text/javascript" src="../js/nave.js"></script>
+
+</html>
